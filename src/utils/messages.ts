@@ -37,7 +37,7 @@ import {
   getRequestTooLargeErrorMessage,
 } from '../services/api/errors.js'
 import type { AnyObject, Progress } from '../Tool.js'
-import { isConnectorTextBlock } from './types/connectorText.js'
+import { isConnectorTextBlock } from '../types/connectorText.js'
 import type {
   AssistantMessage,
   AttachmentMessage,
