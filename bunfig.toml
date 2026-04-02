@@ -1,0 +1,7 @@
+# Register the bun:bundle shim plugin and MACRO globals preload
+# so `bun run src/entrypoints/cli.tsx` works without building.
+
+preload = [
+  "./shims/globals.ts",
+  "./shims/bun-bundle-plugin.ts",
+]
